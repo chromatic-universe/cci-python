@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>chromatic universe king console</title>
+
+
+
+
+
+</head>
+
+     <font color="black"  face="courier" size="1.5">
+
+
+         <center>
+        <table>
+
+         <tr><td align="center"> <img src="{{ url_for('static', filename = 'image/king-console64_v.png') }}"></td>
+         <td align="center"><b><i><u>king console~cci-trinity-II</u></i></b></td>
+                  </tr>
+              </table>
+              <form >
+                 <input type="submit" value="services"/>
+                 <input type="submit" value="stats"/>
+                </form>
+            <hr>
+             </center>
+         {% block body %}
+            <b>default document policy</b>
+            <br>
+            ~
+            <br>
+            <br>
+               <div id="doc-policy-table">
+                {% for doc in document_policy %}
+                {{doc}} : {{document_policy[doc]}}<br>
+                {% endfor %}
+            </div>
+             <hr>
+            <b>default stream policy</b>
+            <br>
+            ~
+            <br>
+            <br>
+
+             <div id="stream-policy-table">
+                {% for stream in stream_policy %}
+                {{stream}} : {{stream_policy[stream]}}<br>
+                {% endfor %}
+            </div>
+            <br>
+
+           <br>
+           <center><b><i>
+                    <hr>
+                 device: {{ device }}
+             <br>
+                     cci-maelstrom<br>
+                     async-dispatch<br>
+                     async-persistence<br><br><br></i></b>
+
+                     <small>chromatic universe 2016<br>
+                           </small><br>
+             </center>
+              {% endblock %}
+
+
+
+
+
+</font>
+
+</html>

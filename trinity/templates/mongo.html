@@ -1,0 +1,54 @@
+<a href="/mongo/update_http_server_status">/mongo/update_http_server_status</a><pre>
+PUT update http server  status
+:param http_id : string
+:param status : string
+:return : ack
+</pre><br><a href="/mongo/insert_beaucoup_payload">/mongo/insert_beaucoup_payload</a><pre>
+POST insert many json payload , serialization hijinks involved , could affect performance
+:param payload:
+:return:
+</pre><br><a href="/mongo/insert_atomic_payload">/mongo/insert_atomic_payload</a><pre>
+POST insert json payload
+:param payload:
+:return:
+</pre><br><a href="/mongo/update_device_status">/mongo/update_device_status</a><pre>
+PUT update device status
+:param device_id : string
+:param status : csv <active,last_ip,last_remote_ip>  true,192.168.0.1,64.0.1.19
+:return : jsonified payload of devices
+</pre><br><a href="/mongo/retr_auth_apps">/mongo/retr_auth_apps</a><pre>
+GET retrieve payload of authorized applications
+:param application moniker:
+:return: : jsonified device payload
+:rtype: json
+</pre><br><a href="/mongo/insert_device">/mongo/insert_device</a><pre>
+POST insert device
+:param payload
+:return:
+</pre><br><a href="/mongo/enum_devices">/mongo/enum_devices</a><pre>
+GET enumerate all devices:
+return : jsonified payload of devices
+</pre><br><a href="/mongo/cci_api">/mongo/cci_api</a><pre>
+GET to generate a list of endpoints and their docstrings
+:return this document
+</pre><br><a href="/mongo/retr_segment_devices/<segment>">/mongo/retr_segment_devices/<segment></a><pre>
+GET retrieve devices by segment identifier
+:param segment: string
+:return: : jsonified device payload
+:rtype: json
+</pre><br><a href="/mongo/retr_devices_by_app/<app>">/mongo/retr_devices_by_app/<app></a><pre>
+GET retrieve devices by application spec
+:param application moniker:
+:return: : jsonified device payload
+:rtype: json
+</pre><br><a href="/mongo/device_active/<device_id>">/mongo/device_active/<device_id></a><pre>
+GET is device tagged active?
+:param device_id: string
+:return: : jsonified device payload
+:rtype: json
+</pre><br><a href="/mongo/retr_device/<device_id>">/mongo/retr_device/<device_id></a><pre>
+GET  retrieve one device or 404 by id( mac address )
+:param : device_id
+:return : jsonified device payload
+:rtype: json
+</pre><br>

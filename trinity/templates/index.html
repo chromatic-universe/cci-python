@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>chromatic universe king console</title>
+
+
+
+
+
+</head>
+
+     <font color="black"  face="courier" size="2">
+
+
+              {% block body %}
+<center>
+
+       <tr><td align="center"> <img src="{{ url_for('static', filename = 'image/king-console64.png') }}"></td>
+         <td align="center"><b><i><u>king console~cci-trinity</u></i></b></td>
+                  </tr>
+
+
+              {{ message }}<br>
+            <table cellspacing="10" cellpadding="10">
+              <tr><td align="center">
+             <form action="/session_call_history/{{ device }}">
+
+                <input type="submit" value="currrent session">
+            </form>
+            </td>
+
+                <td>
+                    <center>
+                <form method="post" action="{{ url_for('query_session') }}">
+                  <label for="session_id">session_id:</label><br><br><br>
+                  <input type="text" name="session_id" /><br />
+                    <br>
+                  <input type="submit" value="query session"/>
+                </form>
+                </center>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td align="center">
+                <form method="post" action="{{ url_for('mongo_api') }}">
+                  <input type="image" src="{{ url_for('static', filename = 'image/mongo.png') }}"
+                       alt="Submit Form"   value="mongodb rest api"/>
+                </form>
+
+               </td>
+
+
+            <td align="center">
+
+                <form method="post" action="{{ url_for('cci_api') }}">
+                  <input type="image" src="{{ url_for('static', filename = 'image/kafka-logo.png') }}"
+                        alt="Submit Form"  value="kafka rest api"/>
+                </form>
+            <td></tr>
+
+
+             <tr><td align="center">
+
+                <form method="post" action="{{ url_for('cci_api') }}">
+                  <input type="submit" value="stream and metadata config"/>
+                </form>
+            </td>
+           <td align="center">
+
+                <form method="post" action="{{ url_for('cci_api') }}">
+                  <input type="submit" value="transport policy config"/>
+                </form>
+           </td></tr>
+             </table><br>
+                    <hr>
+                 device: {{ device }}
+             <br>
+                     cci-maelstrom<br>
+                     <small>chromatic universe 2016</small><br>
+             </center>
+              {% endblock %}
+
+
+
+
+
+</font>
+   </body>
+</html>

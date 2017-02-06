@@ -1,0 +1,18 @@
+2016-08-14 09:54:03,265.265.191078186:cci_mini_elastic:-1219229952:INFO:21714:cci_mini_elastic...
+2016-08-14 09:54:03,267.267.076015472:cci_mini_elastic:-1219229952:INFO:21714:....connect...
+2016-08-14 09:54:08,876.876.71995163:cci_mini_elastic:-1219229952:INFO:21714:elasticsearch version=1.5.2;lucene version=4.10.4
+2016-08-14 09:54:08,877.877.335071564:cci_mini_elastic:-1219229952:INFO:21714:search-chromatic-search-p647s4rdqjcgub7tt7neealjn4.us-west-2.es.amazonaws.com
+2016-08-14 09:54:08,877.877.619028091:cci_mini_elastic:-1219229952:INFO:21714:{
+    "cluster_name": "748524129313:chromatic-search",
+    "name": "Garokk the Petrified Man",
+    "status": 200,
+    "tagline": "You Know, for Search",
+    "version": {
+        "build_hash": "20085dbc168df96c59c4be65f2999990762dfc6f",
+        "build_snapshot": false,
+        "build_timestamp": "2016-04-20T15:51:59Z",
+        "lucene_version": "4.10.4",
+        "number": "1.5.2"
+    }
+}
+2016-08-14 09:54:08,878.878.988981247:cci_mini_elastic:-1219229952:INFO:21714:...connected to elasticsearch server...

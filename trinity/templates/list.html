@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>chromatic universe</title>
+
+
+
+
+
+</head>
+
+     <font color="black"  face="courier" size="2">
+
+      <center>
+          <img src="{{ url_for('static', filename = 'image/king-console64.png') }}"><br><br>
+          <b><i><u>chromatic universe - king console</u></i></b><br><br>
+          <i>current session: {{ session_id }}</i>
+      <br>
+      <hr>
+              {% block body %}
+
+
+              <table border = 1>
+                 <thead>
+                    <td> %</td>
+                    <td>timestamp</td>
+                    <td>session_name</td>
+                    <td>call_segment</td>
+                    <td>call_moniker</td>
+                    <td>call_params</td>
+                    <td>device</td>
+                 </thead>
+
+                 {% for row in rows %}
+                    <tr>
+                       <td><img src="{{ url_for('static', filename = 'image/king-console32bw.png') }}">{{ row["idx"] }} </td>
+                       <td>{{row["timestamp"]}}</td>
+                       <td>{{row["session_name"]}}</td>
+                       <td> {{ row["call_segment"]}}</td>
+                       <td>{{row['call_moniker']}}</td>
+                        <td>{{row['call_params']}}</td>
+                        <td>{{row['device_id']}}</td>
+                    </tr>
+                 {% endfor %}
+              </table>
+          <br>
+          <hr>
+              <small>  1 to {{ record_ptr }} of {{ total_count }}
+              <br>
+              <a href="/session_call_reprise/{{ session_id }}/batch/{{ max_id }}:{{ total_count }}:{{ record_ptr }}">next</a> </small>
+             <br>
+             <br><small>william k. johnson 2016</small><br>
+             </center>
+              {% endblock %}
+
+
+
+
+
+</font>
+   </body>
+</html>

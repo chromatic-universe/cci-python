@@ -1,0 +1,770 @@
+
+#:import lv kivy.uix.listview
+#:import la kivy.adapters.listadapter
+
+
+
+<CciScreen>:
+    id: cci_screen
+    accordion_id: cci_accordion
+    name: 'screen_cci'
+    ConsoleAccordion:
+
+        _orientation: 'vertical'
+        _inner_orientation: 'horizontal'
+        #listner -call every root width or height change-
+        orientation_handler: self.check_orientation(root.width, root.height)
+
+        id: cci_accordion
+        on_touch_up: app._selected_accordion_item()
+        AccordionItem:
+            title: 'application_and_discovery'
+            Accordion:
+                orientation: root.accordion_id._inner_orientation
+                AccordionItem:
+                    title: 'nmap fat fingerprint'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        ScrollView:
+                            GridLayout:
+                                cols: 1
+                                orientation: 'horizontal'
+                                size_hint_y: None
+                                size: (400,400)
+                                GridLayout:
+                                    orientation: 'horizontal'
+                                    cols: 2
+                                    Button:
+                                        id: more_apps_btn
+                                        text: '...'
+                                        font_size: 24
+                                        size_hint_x: .35
+                                        color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                        on_press: root._on_show_appdiscovery_extended()
+                                    Button:
+                                        id: exec_fat_finger
+                                        text: 'execute fat finger'
+                                        color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                        on_press: root._on_nmap_fat_finger_start()
+                                BoxLayout
+                                    orientation: 'horizontal'
+                                    Label:
+                                        text: 'show trace:'
+                                    Switch:
+                                        id: switch_trace_fat_finger
+                                        active: True
+                                BoxLayout
+                                    orientation: 'horizontal'
+                                    Label:
+                                        text: 'get signatures:'
+                                    Switch:
+                                        id: switch_fat_verbose
+                                        active: True
+                                GridLayout
+                                    orientation: 'horizontal'
+                                    cols: 1
+                                    Label:
+                                        text: 'ip fat finger'
+                                    TextInput:
+                                        text: '192.168.0.155'
+                                        id: ip_input_fat_finger
+                                        cursor_blink: True
+                                        readonly: False
+                                        multiline: False
+                AccordionItem:
+                    title: 'quick nmap fingerprint'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        ScrollView:
+                            GridLayout:
+                                cols: 1
+                                orientation: 'horizontal'
+                                size_hint_y: None
+                                size: (400,400)
+                                GridLayout:
+                                    orientation: 'horizontal'
+                                    cols: 2
+                                    Button:
+                                        id: more_apps_btn
+                                        text: '...'
+                                        font_size: 24
+                                        size_hint_x: .35
+                                        color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                        on_press: root._on_show_appdiscovery_extended()
+                                    Button:
+                                        id: exec_fingerprint
+                                        text: 'execute fingerprint'
+                                        color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                        on_press: root._on_nmap_fingerprint_start()
+                                BoxLayout
+                                    orientation: 'horizontal'
+                                    Label:
+                                        text: 'show trace:'
+                                    Switch:
+                                        id: switch_trace_nfinger
+                                        active: True
+                                BoxLayout
+                                    orientation: 'horizontal'
+                                    Label:
+                                        text: 'verbose'
+                                    Switch:
+                                        id: switch_trace_nfinger
+                                        active: True
+                                GridLayout
+                                    orientation: 'horizontal'
+                                    cols: 1
+                                    Label:
+                                        text: 'ip quick fingerprint'
+                                    TextInput:
+                                        text: '192.168.0.165'
+                                        id: ip_input_nmap_finger
+                                        cursor_blink: True
+                                        readonly: False
+                                        multiline: False
+
+        AccordionItem:
+            title: 'transport'
+            Accordion:
+                orientation: root.accordion_id._inner_orientation
+                AccordionItem:
+                    title: 'syn ack'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.25
+                            Button:
+                                id: more_tcp_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_tcp_extended()
+                            Button:
+                                id: syn_ack_btn
+                                text: 'execute syn ack'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_tcp_syn_scan_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: .25
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'ttl:'
+                            Slider:
+                                orientation: 'horizontal'
+                                min: 1
+                                max: 15
+                                value: 5
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .35
+                            Label:
+                                text: 'ip syn ack(0.0.0.0:port)'
+                            TextInput:
+                                text: '192.168.0.156:7081'
+                                id: ip_input_syn_ack
+                                cursor_blink: True
+                                readonly: False
+                                multiline: False
+                AccordionItem:
+                    title: 'mini port scan'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.25
+                            Button:
+                                id: more_tcp_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_tcp_extended()
+                            Button:
+                                id: syn_ack_btn
+                                text: 'execute scan'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_tcp_syn_scan_ports_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.2
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.2
+                            Label:
+                                text: 'unanswered:'
+                            Switch:
+                                active: False
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .25
+                            Label:
+                                text: 'ip syn (0.0.0.0)'
+                            TextInput:
+                                text: '192.168.0.176'
+                                id: ip_input_syn_ack_port
+                                cursor_blink: True
+                                readonly: False
+                                multiline: False
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .25
+                            Label:
+                                text: 'port range or set:'
+                            TextInput:
+                                text: '440:443 or 443,993,8080'
+                                id: ip_input_syn_ack_scan
+                                cursor_blink: True
+                                readonly: False
+                                multiline: True
+
+        AccordionItem:
+            title: 'network'
+            Accordion:
+                orientation: root.accordion_id._inner_orientation
+                AccordionItem:
+                    title: 'ping'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.20
+                            Button:
+                                id: more_ping_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_network_extended()
+                            Button:
+                                id: ping_btn
+                                text: 'execute ping'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_ping_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                id: show_trace_ping
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'greedy trace:'
+                            Switch:
+                                active: False
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'multiple ip:'
+                            Switch:
+                                active: False
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'timesout: ' + '{0:}'.format( single_slider.value )
+                            Slider:
+                                orientation: 'horizontal'
+                                id: single_slider
+                                step: 1
+                                min: 1
+                                max: 15
+                                value: 1
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .30
+                            Label:
+                                text: 'ip or address:'
+                            TextInput:
+                                text: '192.168.0.133'
+                                id: ip_input
+                                cursor_blink: True
+                                readonly: False
+                                multiline: True
+                AccordionItem:
+                    title: 'ping subnet'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.20
+                            Button:
+                                id: more_ping_sub_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_network_extended()
+                            Button:
+                                id: ping_sub_btn
+                                text: 'execute sub ping'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_ping_subnet_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'mark reply only:'
+                            Switch:
+                                active: False
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'timeout: ' + '{0:}'.format( subnet_slider.value )
+                            Slider:
+                                orientation: 'horizontal'
+                                id: subnet_slider
+                                step: 1
+                                min: 1
+                                max: 15
+                                value: 1
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .30
+                            Label:
+                                text: 'subnet(0.0.0.0/24):'
+                            TextInput:
+                                text: '192.168.0.0/24'
+                                id: ip_subnet_input
+                                cursor_blink: True
+                                readonly: False
+                                multiline: False
+
+        AccordionItem:
+            title: 'datalink'
+            id: acc_item_datalink
+            Accordion:
+                orientation: root.accordion_id._inner_orientation
+                AccordionItem:
+                    title: 'arp'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.20
+                            Button:
+                                id: more_arp_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_datalink_extended()
+                            Button:
+                                id: arp_btn
+                                text: 'execute arp'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_arp_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'greedy trace:'
+                            Switch:
+                                active: False
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'timeout: ' + '{0:}'.format( single_slider.value )
+                            Slider:
+                                orientation: 'horizontal'
+                                id: single_slider
+                                step: 1
+                                min: 1
+                                max: 15
+                                value: 1
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .30
+                            Label:
+                                text: 'ip or address:'
+                            TextInput:
+                                text: '192.168.0.133'
+                                id: ip_arp_input
+                                cursor_blink: True
+                                readonly: False
+                                multiline: True
+                AccordionItem:
+                    title: 'arp scan'
+                    BoxLayout:
+                        orientation: 'vertical'
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 2
+                            size_hint_y: 0.20
+                            Button:
+                                id: more_stp_sub_btn
+                                text: '...'
+                                font_size: 24
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_show_datalink_extended()
+                            Button:
+                                id: ping_arp_btn
+                                text: 'execute sub arp'
+                                color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                #background_color: [0,0,0,0]
+                                on_press: root._on_arp_scan_start()
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'show trace:'
+                            Switch:
+                                active: True
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'verbose:'
+                            Switch:
+                                active: False
+                        BoxLayout
+                            orientation: 'horizontal'
+                            size_hint_y: 0.15
+                            Label:
+                                text: 'timeout: ' + '{0:}'.format( subnet_slider.value )
+                            Slider:
+                                orientation: 'horizontal'
+                                id: subnet_slider
+                                step: 1
+                                min: 1
+                                max: 15
+                                value: 1
+                        GridLayout
+                            orientation: 'horizontal'
+                            cols: 1
+                            size_hint_y: .30
+                            Label:
+                                text: 'subnet(0.0.0.0./24):'
+                            TextInput:
+                                text: '192.168.0.0/24'
+                                id: arp_subnet_input
+                                cursor_blink: True
+                                readonly: False
+                                multiline: False
+
+        AccordionItem:
+            title: 'stream'
+            Accordion:
+                orientation: root.accordion_id._inner_orientation
+                AccordionItem:
+                    title: 'data'
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        ScrollView:
+                             #size: self.size
+                            GridLayout:
+                                orientation: 'horizontal'
+                                cols: 1
+                                size_hint_y: None
+                                size: (400,800)
+                                Button:
+                                    text: 'configure transport atoms....'
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    size_hint_y: 2.5
+                                Label:
+                                    text: 'current document context:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    id:    id_document_context
+                                    text: 'mongdb\ncci-aws-3'
+                                    halign: 'center'
+                                    on_press: app._on_document_context( 'mongo' )
+                                    size_hint_y: 2.5
+                                Label:
+                                    text: 'current search context:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    text: 'elasticsearch\nsearch-chromatic-search-p647s4rdqjcgub7tt7neealjn4.us-west-2.es.amazonaws.com'
+                                    halign: 'center'
+                                    size_hint_y: 2.5
+                                Label:
+                                    text: 'local:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    text: 'sqllite3'
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    size_hint_y: 2.5
+                                Label:
+                                    text: 'stream encryption:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    text: 'tls'
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    size_hint_y: 2.5
+
+
+                AccordionItem:
+                    title: 'publish~subscribe'
+                    BoxLayout:
+                        orientation: 'horizontal'
+                        ScrollView:
+                             #size: self.size
+                            GridLayout:
+                                orientation: 'horizontal'
+                                cols: 1
+                                size_hint_y: None
+                                size: (400,800)
+                                Button:
+                                    text: 'configure pubsub atoms....'
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    size_hint_y: 1.25
+                                Label:
+                                    text: 'current publishing context:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    text: 'kafka\ncci-aws-1'
+                                    halign: 'center'
+                                    size_hint_y: 1.25
+                                    on_press: app._on_document_context( 'kafka-publisher' )
+                                Label:
+                                    text: 'current consumer context:'
+                                    color: [1,0,0,1]
+                                Button:
+                                    color: [224 / 255.0 , 224 / 255.0 , 224 / 255.0 ,224 / 255.0]
+                                    text: 'kafka\ncci-aws-1'
+                                    halign: 'center'
+                                    size_hint_y: 1.25
+        AccordionItem:
+            title: 'cci-maelstrom'
+            GridLayout
+                orientation: 'horizontal'
+                cols: 1
+                ActionBar:
+                    pos_hint: {'top':1}
+                    ActionView:
+                        use_separator: True
+                        ActionPrevious:
+                            id: cci_action_prev
+                            title: 'king console'
+                            with_previous: False
+                            on_press: app._on_full_screen()
+                            app_icon: 'king-console32.png'
+                            #size_hint_x: .15
+                        ActionButton:
+                            text: 'views'
+                        ActionGroup:
+                            ActionButton:
+                                text: 'nodes'
+                                on_press: app._on_view_manager()
+                            ActionButton:
+                                text: 'history'
+                                on_press: root._on_show_history()
+                            ActionButton:
+                                #icon: './image/note.png'
+                                text: 'notes'
+                                on_press: root._on_show_session_note()
+                            ActionButton:
+                                text: 'traceroute'
+                            ActionButton:
+                                text: 'packets'
+
+
+                BoxLayout:
+                    orientation: 'vertical'
+                    Carousel:
+                        id: maelstrom_carousel_id
+                        direction: 'right'
+                        GridLayout:
+                            orientation: 'horizontal'
+                            id: console_grid
+                            cols: 1
+                            pos_hint: {'top':1}
+                            BoxLayout:
+                                size_hint_y: .15
+                                Label:
+                                    text: 'local ip:'
+                                    color: [1,0,0,1]
+                                    font_size: 14
+                                Label:
+                                    id: console_local_id
+                                    text: '0.0.0.0'
+                                    font_size: 14
+                                Label:
+                                    text: 'external ip:'
+                                    color: [1,0,0,1]
+                                    font_size: 14
+                                Label:
+                                    text: '0.0.0.0'
+                                    id: console_real_id
+                                    font_size: 14
+                            Label:
+                                text: 'interfaces & scan ids'
+                                color: [1,0,0,1]
+                                font_size: 14
+                                size_hint_y: .1
+                            ScrollView:
+                                id: console_scrlv
+                                TextInput:
+                                    text: 'foo'
+                                    id: console_interfaces
+                                    size_hint: 1, None
+                                    cursor_blink: True
+                                    background_color: [0,0,0,0]
+                                    foreground_color: [1,1,1,1]
+                                    multiline: True
+                                    font_size: 14
+                                    readonly: True
+                                    height: max( (len(self._lines)+1) * self.line_height, console_scrlv.height)
+
+
+
+
+<ListItemButton>:
+    #selected_color: 0, 0, 1, 1
+    deselected_color: 0, 0, 0, 0
+
+ScreenManagement:
+    CciScreen:
+
+
+
+<CciScreen>:
+    id: cci_screen
+    name: 'screen_cci'
+    ConsoleAccordion:
+
+
+#network screen
+<NetworkScreen>
+    id: network_screen
+    name: 'screen_network'
+    GridLayout
+        orientation: 'horizontal'
+        cols: 1
+        Accordion:
+            id: network_accordion
+            orientation: 'vertical'
+            AccordionItem:
+                id: ping_beaucoup
+                title: 'beaucoup ping'
+
+# tcp screen
+<TransportScreen>
+    id: transport_screen
+    name: 'screen_transport'
+
+
+
+
+# datalink screen
+<DatalinkScreen>
+    id: datalink_screen
+    name: 'screen_datalink'
+    GridLayout
+        orientation: 'horizontal'
+        cols: 1
+        Accordion:
+            id: datalink_accordion
+            orientation: 'vertical'
+            AccordionItem:
+                title: 'arp monitor'
+                GridLayout
+                    orientation: 'horizontal'
+                    cols: 1
+                    ActionBar:
+                        pos_hint: {'top':1}
+                        ActionView:
+                            use_separator: True
+                            ActionPrevious:
+                                title: 'king console'
+                                with_previous: False
+                                app_icon: 'king-console32.png'
+                            ActionButton:
+                                text: 'back'
+                                on_press: app._manip_extended_window()
+                            ActionButton:
+                                text: 'start'
+                                id: start_monitor_btn
+                                color: [0,1,0.1]
+                                on_press: root._on_arp_monitor_start()
+                    Carousel:
+                        id: carousel_id
+                        direction: 'right'
+                        GridLayout:
+                            orientation: 'horizontal'
+                            id: console_grid
+                            cols: 1
+                            pos_hint: {'top':1}
+                            ScrollView:
+                                id: console_scrlv
+                                TextInput:
+                                    text: 'cci_maelstrom->arp-monitor-> '
+                                    id: console_arp_monitor_txt
+                                    size_hint: 1, None
+                                    cursor_blink: True
+                                    background_color: [0,0,0,0]
+                                    foreground_color: [1,1,1,1]
+                                    multiline: True
+                                    font_size: 16
+                                    readonly: True
+                                    height: max( (len(self._lines)+1) * self.line_height, console_scrlv.height)
+                    Label:
+                        text: '~'
+                        id: console_params
+                        font_size: 16
+                        size_hint_y: 0.15
+                        color: [ 1, 0 , 0 , 1]
+                    Label:
+                        text: 'timestamp'
+                        id: console_timestamp
+                        font_size: 16
+                        size_hint_y: 0.2
+                        color: [ 1, 0 , 0 , 1]
+
+
+# app and discovery screen
+<AppDiscoveryScreen>
+    id: app_discovery_screen
+    name: 'screen_application_and_discovery'

@@ -1,0 +1,46 @@
+[
+    {
+        "type": "title",
+        "title": "physical"
+    },
+    {
+        "type": "numeric",
+        "title": "reply packet timeout",
+        "desc": "reply timeout(seconds)",
+        "section": "physical",
+        "key": "packet_timeout"
+    },
+    {
+        "type": "bool",
+        "title": "show output stream",
+        "desc": "open display",
+        "section": "physical",
+        "key": "show_stream"
+    },
+    {
+        "type": "title",
+        "title": "network-icmp"
+    },{
+        "type": "numeric",
+        "title": "reply packet timeout",
+        "desc": "reply timeout(seconds)",
+        "section": "network-icmp",
+        "key": "packet_timeout"
+    },
+    {
+        "type": "bool",
+        "title": "show output stream",
+        "desc": "open display",
+        "section": "network-icmp",
+        "key": "show_stream"
+    },
+    {
+        "type": "string",
+        "title": "default address",
+        "desc": "default address or ip",
+        "section": "network-icmp",
+        "key": "default_address"
+    }
+]
+
+

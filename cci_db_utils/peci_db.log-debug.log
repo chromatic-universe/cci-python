@@ -1,0 +1,15 @@
+2016-05-13 23:26:59,831.831.381082535:peci_db:-1218894080:INFO:31904:pg_transmogrify ,william k. johnson 2015
+2016-05-13 23:26:59,919.919.631958008:peci_db:-1218894080:INFO:31904:database connect string: dbname=cci_db password=postgres port=5432 host=localhost user=postgres
+2016-05-13 23:26:59,919.919.970989227:peci_db:-1218894080:INFO:31904:connected to database....ready.
+2016-05-13 23:26:59,920.920.131921768:peci_db:-1218894080:INFO:31904:SQL:select version()
+2016-05-13 23:26:59,920.920.959949493:peci_db:-1218894080:INFO:31904:('PostgreSQL 9.3.12 on i686-pc-linux-gnu, compiled by gcc (Ubuntu 4.8.4-2ubuntu1~14.04.1) 4.8.4, 32-bit',)
+2016-05-13 23:26:59,921.921.159029007:peci_db:-1218894080:INFO:31904:SQL:select current_database()
+2016-05-13 23:26:59,921.921.719074249:peci_db:-1218894080:INFO:31904:('cci_db',)
+2016-05-13 23:26:59,921.921.894073486:peci_db:-1218894080:INFO:31904:SQL:select version()
+2016-05-13 23:26:59,922.922.23405838:peci_db:-1218894080:INFO:31904:('PostgreSQL 9.3.12 on i686-pc-linux-gnu, compiled by gcc (Ubuntu 4.8.4-2ubuntu1~14.04.1) 4.8.4, 32-bit',)
+2016-05-13 23:26:59,922.922.389030457:peci_db:-1218894080:INFO:31904:SQL:select inet_server_addr()
+2016-05-13 23:26:59,922.922.791957855:peci_db:-1218894080:INFO:31904:('127.0.0.1',)
+2016-05-13 23:26:59,922.922.960996628:peci_db:-1218894080:INFO:31904:SQL:select pg_backend_pid()
+2016-05-13 23:26:59,923.923.336029053:peci_db:-1218894080:INFO:31904:(31906,)
+2016-05-13 23:26:59,923.923.489093781:peci_db:-1218894080:INFO:31904:SQL:select pg_postmaster_start_time()
+2016-05-13 23:26:59,924.924.034118652:peci_db:-1218894080:INFO:31904:(datetime.datetime(2016, 5, 12, 22, 37, 25, 160036, tzinfo=psycopg2.tz.FixedOffsetTimezone(offset=-240, name=None)),)

@@ -1,0 +1,1134 @@
+2016-09-29 09:05:18,454.454.972028732:king console:-1219000576:INFO:18200:kingconsoleApp...
+2016-09-29 09:05:18,462.462.627887726:king console:-1219000576:INFO:18200:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:51443 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:51443 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:205498320 (205.4 MB)  TX bytes:205498320 (205.4 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 56:ec:86:46:6a:1e  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:465 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:112664 (112.6 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.117  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:738082 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:155392 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:233794519 (233.7 MB)  TX bytes:27956125 (27.9 MB)
+
+
+2016-09-29 09:05:18,462.462.953090668:king console:-1219000576:INFO:18200:...thread manager initialized...
+2016-09-29 09:05:19,316.316.570997238:king console:-1219000576:INFO:18200:...on_start...
+2016-09-29 09:05:19,357.357.459068298:king console:-1219000576:ERROR:18200:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb20ed40c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-09-29 09:05:19,358.358.127117157:king console:-1307911360:INFO:18200:...db manager initialized...
+2016-09-29 09:05:19,511.511.054992676:king console:-1307911360:INFO:18200:...sd_insert_session executed...
+2016-09-29 09:05:19,679.679.445981979:king console:-1307911360:INFO:18200:...sd_insert_session_call executed...
+2016-09-29 09:05:19,680.680.021047592:king console:-1307911360:INFO:18200:...sql_retrieve_document_policy executed...['default', 'document']
+2016-09-29 09:05:19,930.930.934906006:king console:-1307911360:INFO:18200:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-09-29 09:10:13,631.631.702899933:king console:-1219000576:INFO:18200:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-09-29 09:10:13,837.837.141990662:king console:-1219000576:INFO:18200:main...app running.....
+2016-09-29 09:11:23,484.484.30109024:king console:-1219160320:INFO:18551:kingconsoleApp...
+2016-09-29 09:11:23,607.607.362985611:king console:-1219160320:INFO:18551:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:51629 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:51629 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:205520604 (205.5 MB)  TX bytes:205520604 (205.5 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 56:ec:86:46:6a:1e  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:468 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:113298 (113.2 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.117  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:742057 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:156463 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:236247397 (236.2 MB)  TX bytes:28101552 (28.1 MB)
+
+
+2016-09-29 09:11:23,608.608.586072922:king console:-1219160320:INFO:18551:...thread manager initialized...
+2016-09-29 09:11:25,158.158.205986023:king console:-1219160320:INFO:18551:...on_start...
+2016-09-29 09:11:53,829.829.704999924:king console:-1219160320:INFO:18551:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-09-29 09:11:53,853.853.418111801:king console:-1349727424:INFO:18551:...db manager initialized...
+2016-09-29 09:11:54,749.749.974966049:king console:-1349727424:INFO:18551:...sd_insert_session executed...
+2016-09-29 09:11:54,918.918.271064758:king console:-1349727424:INFO:18551:...sd_insert_session_call executed...
+2016-09-29 09:11:54,930.930.89389801:king console:-1349727424:INFO:18551:...sql_retrieve_document_policy executed...['default', 'document']
+2016-09-29 09:11:55,196.196.870088577:king console:-1349727424:INFO:18551:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-09-29 09:12:48,548.548.192024231:king console:-1219062016:INFO:18795:kingconsoleApp...
+2016-09-29 09:12:48,671.671.541929245:king console:-1219062016:INFO:18795:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:53242 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:53242 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:205739848 (205.7 MB)  TX bytes:205739848 (205.7 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 56:ec:86:46:6a:1e  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:468 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:113298 (113.2 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.117  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:743063 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:156554 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:236317066 (236.3 MB)  TX bytes:28112369 (28.1 MB)
+
+
+2016-09-29 09:12:48,672.672.492980957:king console:-1219062016:INFO:18795:...thread manager initialized...
+2016-09-29 09:12:50,257.257.029056549:king console:-1219062016:INFO:18795:...on_start...
+2016-09-29 09:12:50,705.705.637931824:king console:-1219062016:INFO:18795:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-09-29 09:12:50,719.719.888925552:king console:-1349629120:INFO:18795:...db manager initialized...
+2016-09-29 09:12:50,898.898.649930954:king console:-1349629120:INFO:18795:...sd_insert_session executed...
+2016-09-29 09:12:51,055.55.1199913025:king console:-1349629120:INFO:18795:...sd_insert_session_call executed...
+2016-09-29 09:12:51,069.69.8130130768:king console:-1349629120:INFO:18795:...sql_retrieve_document_policy executed...['default', 'document']
+2016-09-29 09:12:51,332.332.982063293:king console:-1349629120:INFO:18795:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-01 01:25:39,679.679.682970047:king console:-1218992384:INFO:25706:kingconsoleApp...
+2016-10-01 01:25:39,694.694.713115692:king console:-1218992384:INFO:25706:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:35894 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:35894 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:208693602 (208.6 MB)  TX bytes:208693602 (208.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:58599 (58.5 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.154  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:450811 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:294739 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:276524660 (276.5 MB)  TX bytes:141865418 (141.8 MB)
+
+
+2016-10-01 01:25:39,695.695.041894913:king console:-1218992384:INFO:25706:...thread manager initialized...
+2016-10-01 01:25:41,310.310.565948486:king console:-1218992384:INFO:25706:...on_start...
+2016-10-01 01:25:41,364.364.80307579:king console:-1218992384:ERROR:25706:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb20ef40c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-01 01:25:41,365.365.307092667:king console:-1307903168:INFO:25706:...db manager initialized...
+2016-10-01 01:25:41,696.696.610927582:king console:-1307903168:INFO:25706:...sd_insert_session executed...
+2016-10-01 01:25:41,898.898.165941238:king console:-1307903168:INFO:25706:...sd_insert_session_call executed...
+2016-10-01 01:25:41,898.898.73790741:king console:-1307903168:INFO:25706:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-01 01:25:42,149.149.84703064:king console:-1307903168:INFO:25706:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-01 01:27:50,751.751.137018204:king console:-1218992384:ERROR:25706:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb0efa6cc>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-01 01:27:50,751.751.394033432:king console:-1218992384:INFO:25706:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-01 01:27:50,964.964.848995209:king console:-1218992384:INFO:25706:main...app running.....
+2016-10-06 09:21:09,668.668.930053711:king console:-1219746048:INFO:10302:kingconsoleApp...
+2016-10-06 09:21:09,695.695.764064789:king console:-1219746048:INFO:10302:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:301231 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:301231 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:737616786 (737.6 MB)  TX bytes:737616786 (737.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1654 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:417627 (417.6 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3064170 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500460 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1361982310 (1.3 GB)  TX bytes:660815440 (660.8 MB)
+
+
+2016-10-06 09:21:09,696.696.099042892:king console:-1219746048:INFO:10302:...thread manager initialized...
+2016-10-06 09:21:10,648.648.324012756:king console:-1219746048:INFO:10302:...on_start...
+2016-10-06 09:21:10,716.716.355085373:king console:-1219746048:ERROR:10302:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb203740c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:21:10,717.717.031955719:king console:-1308656832:INFO:10302:...db manager initialized...
+2016-10-06 09:21:11,013.13.4398937225:king console:-1308656832:INFO:10302:...sd_insert_session executed...
+2016-10-06 09:21:11,203.203.737020493:king console:-1308656832:INFO:10302:...sd_insert_session_call executed...
+2016-10-06 09:21:11,204.204.302072525:king console:-1308656832:INFO:10302:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:21:11,455.455.144882202:king console:-1308656832:INFO:10302:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:21:32,683.683.640956879:king console:-1219746048:INFO:10302:discovery and port manip
+2016-10-06 09:21:37,841.841.866016388:king console:-1219746048:ERROR:10302:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb10485cc>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:21:37,842.842.263936996:king console:-1219746048:INFO:10302:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:21:38,065.65.7830238342:king console:-1219746048:INFO:10302:main...app running.....
+2016-10-06 09:27:42,041.41.6541099548:king console:-1219127552:INFO:10962:kingconsoleApp...
+2016-10-06 09:27:42,049.49.7839450836:king console:-1219127552:INFO:10962:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:302425 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:302425 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:751682564 (751.6 MB)  TX bytes:751682564 (751.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:418174 (418.1 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3066624 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500592 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1362188313 (1.3 GB)  TX bytes:660835327 (660.8 MB)
+
+
+2016-10-06 09:27:42,050.50.1399040222:king console:-1219127552:INFO:10962:...thread manager initialized...
+2016-10-06 09:27:42,559.559.514045715:king console:-1219127552:INFO:10962:...on_start...
+2016-10-06 09:27:42,594.594.691038132:king console:-1219127552:ERROR:10962:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb20ce40c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:27:42,595.595.33405304:king console:-1308038336:INFO:10962:...db manager initialized...
+2016-10-06 09:27:42,740.740.997076035:king console:-1308038336:INFO:10962:...sd_insert_session executed...
+2016-10-06 09:27:42,886.886.805057526:king console:-1308038336:INFO:10962:...sd_insert_session_call executed...
+2016-10-06 09:27:42,887.887.373924255:king console:-1308038336:INFO:10962:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:27:43,138.138.345003128:king console:-1308038336:INFO:10962:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:28:07,267.267.982959747:king console:-1219127552:ERROR:10962:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb249064c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:28:07,268.268.246889114:king console:-1219127552:INFO:10962:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:28:07,276.276.08704567:king console:-1219127552:INFO:10962:main...app running.....
+2016-10-06 09:29:04,948.948.401927948:king console:-1219672320:INFO:11047:kingconsoleApp...
+2016-10-06 09:29:04,958.958.704948425:king console:-1219672320:INFO:11047:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:302432 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:302432 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:751683136 (751.6 MB)  TX bytes:751683136 (751.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:418174 (418.1 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3067488 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500623 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1362253788 (1.3 GB)  TX bytes:660839277 (660.8 MB)
+
+
+2016-10-06 09:29:04,959.959.090948105:king console:-1219672320:INFO:11047:...thread manager initialized...
+2016-10-06 09:29:05,597.597.850084305:king console:-1219672320:INFO:11047:...on_start...
+2016-10-06 09:29:18,177.177.715063095:king console:-1219619072:INFO:11068:kingconsoleApp...
+2016-10-06 09:29:18,190.190.649032593:king console:-1219619072:INFO:11068:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:302433 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:302433 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:751683192 (751.6 MB)  TX bytes:751683192 (751.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:418174 (418.1 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3067542 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500625 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1362259277 (1.3 GB)  TX bytes:660839464 (660.8 MB)
+
+
+2016-10-06 09:29:18,190.190.995931625:king console:-1219619072:INFO:11068:...thread manager initialized...
+2016-10-06 09:29:18,737.737.945079803:king console:-1219619072:INFO:11068:...on_start...
+2016-10-06 09:29:18,776.776.953935623:king console:-1219619072:ERROR:11068:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb205306c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:29:18,777.777.470111847:king console:-1308529856:INFO:11068:...db manager initialized...
+2016-10-06 09:29:18,993.993.593931198:king console:-1308529856:INFO:11068:...sd_insert_session executed...
+2016-10-06 09:29:19,128.128.318071365:king console:-1308529856:INFO:11068:...sd_insert_session_call executed...
+2016-10-06 09:29:19,128.128.966093063:king console:-1308529856:INFO:11068:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:29:19,379.379.964113235:king console:-1308529856:INFO:11068:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:29:26,414.414.045095444:king console:-1219619072:ERROR:11068:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb23d87cc>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:29:26,414.414.273023605:king console:-1219619072:INFO:11068:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:29:26,611.611.763000488:king console:-1308529856:INFO:11068:...sd_update_session_status_closed executed...
+2016-10-06 09:29:26,862.862.550973892:king console:-1219619072:INFO:11068:main...app running.....
+2016-10-06 09:29:49,877.877.171993256:king console:-1219373312:INFO:11133:kingconsoleApp...
+2016-10-06 09:29:49,888.888.776063919:king console:-1219373312:INFO:11133:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:302439 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:302439 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:751683708 (751.6 MB)  TX bytes:751683708 (751.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:418174 (418.1 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3067652 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500641 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1362275403 (1.3 GB)  TX bytes:660841888 (660.8 MB)
+
+
+2016-10-06 09:29:49,889.889.136075974:king console:-1219373312:INFO:11133:...thread manager initialized...
+2016-10-06 09:29:50,406.406.227111816:king console:-1219373312:INFO:11133:...on_start...
+2016-10-06 09:29:50,440.440.402984619:king console:-1219373312:ERROR:11133:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb208f06c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:29:50,440.440.977096558:king console:-1308284096:INFO:11133:...db manager initialized...
+2016-10-06 09:29:50,607.607.805013657:king console:-1308284096:INFO:11133:...sd_insert_session executed...
+2016-10-06 09:29:50,743.743.932008743:king console:-1308284096:INFO:11133:...sd_insert_session_call executed...
+2016-10-06 09:29:50,744.744.520902634:king console:-1308284096:INFO:11133:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:29:50,995.995.510101318:king console:-1308284096:INFO:11133:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:29:55,142.142.221927643:king console:-1219373312:ERROR:11133:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22037ec>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:29:55,142.142.437934875:king console:-1219373312:INFO:11133:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:29:55,296.296.989917755:king console:-1219373312:INFO:11133:main...app running.....
+2016-10-06 09:30:08,612.612.073898315:king console:-1220004096:INFO:11189:kingconsoleApp...
+2016-10-06 09:30:08,619.619.683027267:king console:-1220004096:INFO:11189:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:302443 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:302443 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:751683908 (751.6 MB)  TX bytes:751683908 (751.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1656 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:418174 (418.1 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3067706 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1500646 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1362282883 (1.3 GB)  TX bytes:660842305 (660.8 MB)
+
+
+2016-10-06 09:30:08,620.620.026111603:king console:-1220004096:INFO:11189:...thread manager initialized...
+2016-10-06 09:30:09,255.255.616903305:king console:-1220004096:INFO:11189:...on_start...
+2016-10-06 09:30:09,298.298.237085342:king console:-1220004096:ERROR:11189:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb1ff506c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:30:09,298.298.893928528:king console:-1308914880:INFO:11189:...db manager initialized...
+2016-10-06 09:30:09,464.464.412927628:king console:-1308914880:INFO:11189:...sd_insert_session executed...
+2016-10-06 09:30:09,623.623.158931732:king console:-1308914880:INFO:11189:...sd_insert_session_call executed...
+2016-10-06 09:30:09,623.623.720884323:king console:-1308914880:INFO:11189:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:30:09,874.874.68791008:king console:-1308914880:INFO:11189:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:30:21,061.61.7470741272:king console:-1220004096:ERROR:11189:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb22f142c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:30:21,061.61.9840621948:king console:-1220004096:INFO:11189:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:30:21,183.183.491945267:king console:-1220004096:INFO:11189:main...app running.....
+2016-10-06 09:56:53,444.444.964885712:king console:-1219954944:INFO:12727:kingconsoleApp...
+2016-10-06 09:56:53,452.452.361106873:king console:-1219954944:INFO:12727:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:303942 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:303942 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:765779705 (765.7 MB)  TX bytes:765779705 (765.7 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1661 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:419355 (419.3 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3080880 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1502380 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1364155016 (1.3 GB)  TX bytes:661126694 (661.1 MB)
+
+
+2016-10-06 09:56:53,452.452.699899673:king console:-1219954944:INFO:12727:...thread manager initialized...
+2016-10-06 09:56:54,205.205.298900604:king console:-1219954944:INFO:12727:...on_start...
+2016-10-06 09:56:54,308.308.837890625:king console:-1219954944:INFO:12727:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:56:55,938.938.468933105:king console:-1308865728:INFO:12727:...db manager initialized...
+2016-10-06 09:56:56,090.90.7220840454:king console:-1308865728:INFO:12727:...sd_insert_session executed...
+2016-10-06 09:56:56,247.247.869968414:king console:-1308865728:INFO:12727:...sd_insert_session_call executed...
+2016-10-06 09:56:56,252.252.640962601:king console:-1308865728:INFO:12727:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:56:56,507.507.365942001:king console:-1308865728:INFO:12727:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:57:21,176.176.338911057:king console:-1219954944:ERROR:12727:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb174740c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:57:21,546.546.745061874:king console:-1308865728:INFO:12727:...sd_update_session_status_closed executed...
+2016-10-06 09:57:21,548.548.887014389:king console:-1308865728:ERROR:12727:..in db function call...update_session_status
+2016-10-06 09:57:33,031.31.1379432678:king console:-1219737856:INFO:12817:kingconsoleApp...
+2016-10-06 09:57:33,040.40.8370494843:king console:-1219737856:INFO:12817:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:304045 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:304045 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:765790512 (765.7 MB)  TX bytes:765790512 (765.7 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:9c:31:36:78:43  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1661 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:419355 (419.3 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.112  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3081058 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1502448 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1364186547 (1.3 GB)  TX bytes:661136503 (661.1 MB)
+
+
+2016-10-06 09:57:33,041.41.2030220032:king console:-1219737856:INFO:12817:...thread manager initialized...
+2016-10-06 09:57:33,554.554.867982864:king console:-1219737856:INFO:12817:...on_start...
+2016-10-06 09:57:33,596.596.685886383:king console:-1219737856:ERROR:12817:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb203606c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:57:33,597.597.297906876:king console:-1308648640:INFO:12817:...db manager initialized...
+2016-10-06 09:57:33,764.764.060974121:king console:-1308648640:INFO:12817:...sd_insert_session executed...
+2016-10-06 09:57:33,909.909.98005867:king console:-1308648640:INFO:12817:...sd_insert_session_call executed...
+2016-10-06 09:57:33,910.910.870075226:king console:-1308648640:INFO:12817:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-06 09:57:34,161.161.926031113:king console:-1308648640:INFO:12817:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-06 09:57:38,763.763.18192482:king console:-1219737856:ERROR:12817:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb21aa30c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-06 09:57:38,763.763.45705986:king console:-1219737856:INFO:12817:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-06 09:57:38,976.976.843118668:king console:-1219737856:INFO:12817:main...app running.....
+2016-10-09 21:17:17,529.529.196023941:king console:-1219090688:INFO:26069:kingconsoleApp...
+2016-10-09 21:17:17,552.552.387952805:king console:-1219090688:INFO:26069:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:13962 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:13962 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:19899993 (19.8 MB)  TX bytes:19899993 (19.8 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 22:6a:20:26:6e:99  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:184 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:40573 (40.5 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.166  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:151672 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:49148 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:48120647 (48.1 MB)  TX bytes:6544770 (6.5 MB)
+
+
+2016-10-09 21:17:17,552.552.714109421:king console:-1219090688:INFO:26069:...thread manager initialized...
+2016-10-09 21:17:18,241.241.096973419:king console:-1219090688:INFO:26069:...on_start...
+2016-10-09 21:17:18,308.308.345079422:king console:-1219090688:INFO:26069:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-09 21:17:18,415.415.438890457:king console:-1308439744:INFO:26069:...db manager initialized...
+2016-10-09 21:17:18,681.681.101083755:king console:-1308439744:INFO:26069:...sd_insert_session executed...
+2016-10-09 21:17:18,860.860.272884369:king console:-1308439744:INFO:26069:...sd_insert_session_call executed...
+2016-10-09 21:17:18,864.864.748954773:king console:-1308439744:INFO:26069:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-09 21:17:19,120.120.651006699:king console:-1308439744:INFO:26069:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-09 21:18:05,065.65.4509067535:king console:-1219090688:INFO:26069:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-09 21:18:05,224.224.905967712:king console:-1219090688:INFO:26069:main...app running.....
+2016-10-21 08:07:47,439.439.382076263:king console:-1219229952:INFO:26055:kingconsoleApp...
+2016-10-21 08:07:47,492.492.777109146:king console:-1219229952:INFO:26055:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:24730 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:24730 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:2608315 (2.6 MB)  TX bytes:2608315 (2.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:441 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:106473 (106.4 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.194  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:516253 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:138525 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:174436853 (174.4 MB)  TX bytes:28987011 (28.9 MB)
+
+
+2016-10-21 08:07:47,493.493.12710762:king console:-1219229952:INFO:26055:...thread manager initialized...
+2016-10-21 08:07:48,265.265.09308815:king console:-1219229952:INFO:26055:...on_start...
+2016-10-21 08:07:48,398.398.833036423:king console:-1219229952:INFO:26055:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-21 08:07:48,410.410.947084427:king console:-1308574912:INFO:26055:...db manager initialized...
+2016-10-21 08:07:48,681.681.137084961:king console:-1308574912:INFO:26055:...sd_insert_session executed...
+2016-10-21 08:07:48,895.895.158052444:king console:-1308574912:INFO:26055:...sd_insert_session_call executed...
+2016-10-21 08:07:48,905.905.519008636:king console:-1308574912:INFO:26055:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-21 08:07:49,162.162.143945694:king console:-1308574912:INFO:26055:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-21 08:09:15,754.754.883050919:king console:-1219229952:INFO:26055:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-21 08:09:15,836.836.399078369:king console:-1219229952:INFO:26055:main...app running.....
+2016-10-21 08:12:36,797.797.143936157:king console:-1219483904:INFO:26359:kingconsoleApp...
+2016-10-21 08:12:36,804.804.905891418:king console:-1219483904:INFO:26359:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:25055 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:25055 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:2639917 (2.6 MB)  TX bytes:2639917 (2.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:441 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:106473 (106.4 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.194  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:516931 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:138790 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:174549601 (174.5 MB)  TX bytes:29015462 (29.0 MB)
+
+
+2016-10-21 08:12:36,805.805.252075195:king console:-1219483904:INFO:26359:...thread manager initialized...
+2016-10-21 08:12:37,307.307.799100876:king console:-1219483904:INFO:26359:...on_start...
+2016-10-21 08:12:37,377.377.176046371:king console:-1219483904:INFO:26359:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-21 08:12:59,014.14.9779319763:king console:-1308828864:INFO:26359:...db manager initialized...
+2016-10-21 08:13:05,563.563.359975815:king console:-1308828864:INFO:26359:...sd_insert_session executed...
+2016-10-21 08:13:17,977.977.541923523:king console:-1308828864:INFO:26359:...sd_insert_session_call executed...
+2016-10-21 08:13:55,114.114.480018616:king console:-1308828864:INFO:26359:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-21 08:13:59,889.889.010906219:king console:-1308828864:INFO:26359:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-21 08:15:57,558.558.393955231:king console:-1324405952:INFO:26359:CciScreen...on_ping_ip_input
+2016-10-21 08:15:57,625.625.678062439:king console:-1324405952:ERROR:26359:icmp ping console #2
+2016-10-21 08:15:57,644.644.005060196:king console:-1324405952:INFO:26359:CciScreen...boiler=maelstrom[icmp]->ping:  192.168.0.133
+
+2016-10-21 08:15:57,673.673.964977264:king console:-1324405952:INFO:26359:..update_console_payload...
+2016-10-21 08:15:57,689.689.754009247:king console:-1219483904:INFO:26359:...update console payload...
+2016-10-21 08:15:58,031.31.8739414215:king console:-1308828864:INFO:26359:...sd_insert_session_call executed...
+2016-10-21 08:17:19,946.946.031093597:king console:-1219483904:INFO:26359:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-21 08:17:20,151.151.95608139:king console:-1219483904:INFO:26359:main...app running.....
+2016-10-21 08:17:36,529.529.674053192:king console:-1219549440:INFO:26606:kingconsoleApp...
+2016-10-21 08:17:36,539.539.504051208:king console:-1219549440:INFO:26606:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:26067 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:26067 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:3022864 (3.0 MB)  TX bytes:3022864 (3.0 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:443 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:107020 (107.0 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.194  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:517717 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:139126 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:174658314 (174.6 MB)  TX bytes:29054907 (29.0 MB)
+
+
+2016-10-21 08:17:36,539.539.875030518:king console:-1219549440:INFO:26606:...thread manager initialized...
+2016-10-21 08:17:37,001.1.34706497192:king console:-1219549440:INFO:26606:...on_start...
+2016-10-21 08:17:37,063.63.6389255524:king console:-1219549440:ERROR:26606:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb2017a8c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-21 08:17:37,064.64.768075943:king console:-1308894400:INFO:26606:...db manager initialized...
+2016-10-21 08:17:37,221.221.569061279:king console:-1308894400:INFO:26606:...sd_insert_session executed...
+2016-10-21 08:17:37,378.378.530979156:king console:-1308894400:INFO:26606:...sd_insert_session_call executed...
+2016-10-21 08:17:37,379.379.118919373:king console:-1308894400:INFO:26606:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-21 08:17:37,630.630.120992661:king console:-1308894400:INFO:26606:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-21 08:17:41,454.454.277992249:king console:-1219549440:ERROR:26606:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb35ef30c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-21 08:17:41,454.454.494953156:king console:-1219549440:INFO:26606:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-21 08:17:41,674.674.79300499:king console:-1219549440:INFO:26606:main...app running.....
+2016-10-24 09:24:59,664.664.113998413:king console:-1219426560:INFO:4676:kingconsoleApp...
+2016-10-24 09:24:59,692.692.8191185:king console:-1219426560:INFO:4676:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:68288 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68288 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:30801884 (30.8 MB)  TX bytes:30801884 (30.8 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1242 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:311932 (311.9 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5374110 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1056905 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1412523564 (1.4 GB)  TX bytes:151566211 (151.5 MB)
+
+
+2016-10-24 09:24:59,693.693.140983582:king console:-1219426560:INFO:4676:...thread manager initialized...
+2016-10-24 09:25:00,262.262.376070023:king console:-1219426560:INFO:4676:...on_start...
+2016-10-24 09:25:00,320.320.466995239:king console:-1219426560:INFO:4676:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 09:25:00,338.338.608980179:king console:-1308771520:INFO:4676:...db manager initialized...
+2016-10-24 09:25:00,622.622.847080231:king console:-1308771520:INFO:4676:...sd_insert_session executed...
+2016-10-24 09:25:00,846.846.467018127:king console:-1308771520:INFO:4676:...sd_insert_session_call executed...
+2016-10-24 09:25:00,850.850.995063782:king console:-1308771520:INFO:4676:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 09:25:01,105.105.776071548:king console:-1308771520:INFO:4676:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 09:25:28,144.144.545078278:king console:-1308771520:INFO:4676:...sd_update_session_status_closed executed...
+2016-10-24 09:25:29,728.728.715896606:king console:-1219426560:ERROR:4676:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by ReadTimeoutError("HTTPConnectionPool(host='localhost', port=7081): Read timed out. (read timeout=2)",))
+2016-10-24 09:31:39,151.151.345014572:king console:-1219823872:INFO:5186:kingconsoleApp...
+2016-10-24 09:31:39,160.160.94493866:king console:-1219823872:INFO:5186:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:68607 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68607 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:30828148 (30.8 MB)  TX bytes:30828148 (30.8 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1245 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:312566 (312.5 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5376216 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1057309 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1412866726 (1.4 GB)  TX bytes:151615874 (151.6 MB)
+
+
+2016-10-24 09:31:39,161.161.344051361:king console:-1219823872:INFO:5186:...thread manager initialized...
+2016-10-24 09:31:39,626.626.935958862:king console:-1219823872:INFO:5186:...on_start...
+2016-10-24 09:31:39,687.687.51502037:king console:-1219823872:INFO:5186:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 09:32:10,091.91.1281108856:king console:-1309168832:INFO:5186:...db manager initialized...
+2016-10-24 09:32:10,269.269.916057587:king console:-1309168832:INFO:5186:...sd_insert_session executed...
+2016-10-24 09:32:10,404.404.721975327:king console:-1309168832:INFO:5186:...sd_insert_session_call executed...
+2016-10-24 09:32:10,409.409.69991684:king console:-1309168832:INFO:5186:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 09:32:10,665.665.22192955:king console:-1309168832:INFO:5186:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 09:33:36,279.279.175043106:king console:-1324598464:INFO:5186:CciScreen...on_ping_ip_input
+2016-10-24 09:33:36,353.353.298902512:king console:-1324598464:ERROR:5186:icmp ping console #2
+2016-10-24 09:33:36,369.369.626045227:king console:-1324598464:INFO:5186:CciScreen...boiler=maelstrom[icmp]->ping:  192.168.0.133
+
+2016-10-24 09:33:36,387.387.317895889:king console:-1324598464:INFO:5186:..update_console_payload...
+2016-10-24 09:33:36,398.398.833990097:king console:-1219823872:INFO:5186:...update console payload...
+2016-10-24 09:33:36,749.749.376058578:king console:-1309168832:INFO:5186:...sd_insert_session_call executed...
+2016-10-24 09:34:29,342.342.09895134:king console:-1219823872:INFO:5186:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 09:34:29,528.528.908014297:king console:-1309168832:INFO:5186:...sd_update_session_status_closed executed...
+2016-10-24 09:34:59,763.763.432979584:king console:-1219823872:INFO:5186:main...app running.....
+2016-10-24 09:36:07,692.692.276954651:king console:-1219270912:INFO:5403:kingconsoleApp...
+2016-10-24 09:36:07,703.703.352928162:king console:-1219270912:INFO:5403:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:68828 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68828 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:30854731 (30.8 MB)  TX bytes:30854731 (30.8 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1245 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:312566 (312.5 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5377111 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1057749 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1412989694 (1.4 GB)  TX bytes:151673319 (151.6 MB)
+
+
+2016-10-24 09:36:07,703.703.684091568:king console:-1219270912:INFO:5403:...thread manager initialized...
+2016-10-24 09:36:08,360.360.97407341:king console:-1219270912:INFO:5403:...on_start...
+2016-10-24 09:36:09,608.608.705997467:king console:-1219270912:INFO:5403:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 09:36:40,092.92.9789543152:king console:-1308615872:INFO:5403:...db manager initialized...
+2016-10-24 09:36:40,272.272.821903229:king console:-1308615872:INFO:5403:...sd_insert_session executed...
+2016-10-24 09:36:40,418.418.735980988:king console:-1308615872:INFO:5403:...sd_insert_session_call executed...
+2016-10-24 09:36:40,422.422.986984253:king console:-1308615872:INFO:5403:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 09:36:40,677.677.982091904:king console:-1308615872:INFO:5403:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 09:39:45,115.115.20409584:king console:-1219270912:INFO:5403:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 09:39:45,324.324.769020081:king console:-1308615872:INFO:5403:...sd_update_session_status_closed executed...
+2016-10-24 09:40:15,675.675.685882568:king console:-1219270912:INFO:5403:main...app running.....
+2016-10-24 10:10:15,478.478.586912155:king console:-1219995904:INFO:7043:kingconsoleApp...
+2016-10-24 10:10:15,501.501.034021378:king console:-1219995904:INFO:7043:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:69339 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69339 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:30907357 (30.9 MB)  TX bytes:30907357 (30.9 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1251 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:314207 (314.2 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5388394 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1060234 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1414454179 (1.4 GB)  TX bytes:151963656 (151.9 MB)
+
+
+2016-10-24 10:10:15,501.501.394987106:king console:-1219995904:INFO:7043:...thread manager initialized...
+2016-10-24 10:10:16,130.130.984067917:king console:-1219995904:INFO:7043:...on_start...
+2016-10-24 10:10:18,176.176.63192749:king console:-1219995904:ERROR:7043:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by ReadTimeoutError("HTTPConnectionPool(host='localhost', port=7081): Read timed out. (read timeout=2)",))
+2016-10-24 10:10:18,177.177.400112152:king console:-1309340864:INFO:7043:...db manager initialized...
+2016-10-24 10:10:18,642.642.970085144:king console:-1309340864:INFO:7043:...sd_insert_session executed...
+2016-10-24 10:10:18,790.790.297985077:king console:-1309340864:INFO:7043:...sd_insert_session_call executed...
+2016-10-24 10:10:18,790.790.941953659:king console:-1309340864:INFO:7043:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 10:10:19,041.41.9631004333:king console:-1309340864:INFO:7043:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 10:25:50,682.682.272911072:king console:-1219995904:INFO:7043:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 10:25:50,894.894.730091095:king console:-1219995904:INFO:7043:main...app running.....
+2016-10-24 10:37:03,994.994.2278862:king console:-1219434752:INFO:8171:kingconsoleApp...
+2016-10-24 10:37:04,004.4.41598892212:king console:-1219434752:INFO:8171:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:69765 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:69765 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:30961457 (30.9 MB)  TX bytes:30961457 (30.9 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1256 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:315388 (315.3 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5402462 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1068128 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1421534231 (1.4 GB)  TX bytes:153743927 (153.7 MB)
+
+
+2016-10-24 10:37:04,004.4.77194786072:king console:-1219434752:INFO:8171:...thread manager initialized...
+2016-10-24 10:37:04,937.937.360048294:king console:-1219434752:INFO:8171:...on_start...
+2016-10-24 10:37:04,999.999.02009964:king console:-1219434752:INFO:8171:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 10:37:05,092.92.5500392914:king console:-1308779712:INFO:8171:...db manager initialized...
+2016-10-24 10:37:05,256.256.818056107:king console:-1308779712:INFO:8171:...sd_insert_session executed...
+2016-10-24 10:37:05,414.414.093971252:king console:-1308779712:INFO:8171:...sd_insert_session_call executed...
+2016-10-24 10:37:05,418.418.514966965:king console:-1308779712:INFO:8171:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 10:37:05,673.673.790931702:king console:-1308779712:INFO:8171:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 10:41:50,608.608.532905579:king console:-1324246208:INFO:8171:CciScreen...on_ping_ip_input
+2016-10-24 10:41:50,649.649.63889122:king console:-1324246208:ERROR:8171:icmp ping console #2
+2016-10-24 10:41:50,662.662.60099411:king console:-1324246208:INFO:8171:CciScreen...boiler=maelstrom[icmp]->ping:  192.168.0.133
+
+2016-10-24 10:41:50,672.672.303915024:king console:-1324246208:INFO:8171:..update_console_payload...
+2016-10-24 10:41:50,680.680.56511879:king console:-1219434752:INFO:8171:...update console payload...
+2016-10-24 10:41:50,955.955.920934677:king console:-1308779712:INFO:8171:...sd_insert_session_call executed...
+2016-10-24 10:46:49,274.274.801015854:king console:-1219434752:INFO:8171:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 10:46:49,472.472.049951553:king console:-1308779712:INFO:8171:...sd_update_session_status_closed executed...
+2016-10-24 10:46:49,727.727.478027344:king console:-1219434752:INFO:8171:main...app running.....
+2016-10-24 12:44:38,259.259.139060974:king console:-1219016960:INFO:12934:kingconsoleApp...
+2016-10-24 12:44:38,268.268.16701889:king console:-1219016960:INFO:12934:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:71107 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:71107 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:31115261 (31.1 MB)  TX bytes:31115261 (31.1 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1280 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:321579 (321.5 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5430140 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1078276 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1426958983 (1.4 GB)  TX bytes:155219549 (155.2 MB)
+
+
+2016-10-24 12:44:38,268.268.552064896:king console:-1219016960:INFO:12934:...thread manager initialized...
+2016-10-24 12:44:39,043.43.8799858093:king console:-1219016960:INFO:12934:...on_start...
+2016-10-24 12:44:39,101.101.699113846:king console:-1219016960:INFO:12934:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 12:44:39,213.213.685035706:king console:-1308361920:INFO:12934:...db manager initialized...
+2016-10-24 12:44:39,447.447.722911835:king console:-1308361920:INFO:12934:...sd_insert_session executed...
+2016-10-24 12:44:39,606.606.177091599:king console:-1308361920:INFO:12934:...sd_insert_session_call executed...
+2016-10-24 12:44:39,613.613.301038742:king console:-1308361920:INFO:12934:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 12:44:39,872.872.977972031:king console:-1308361920:INFO:12934:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 12:45:24,675.675.709009171:king console:-1219016960:INFO:12934:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 12:45:24,967.967.597007751:king console:-1308361920:INFO:12934:...sd_update_session_status_closed executed...
+2016-10-24 12:45:25,222.222.399950027:king console:-1219016960:INFO:12934:main...app running.....
+2016-10-24 17:06:09,487.487.504959106:king console:-1219287296:INFO:22658:kingconsoleApp...
+2016-10-24 17:06:09,499.499.553918839:king console:-1219287296:INFO:22658:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:75153 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75153 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:31436246 (31.4 MB)  TX bytes:31436246 (31.4 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1326 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:333414 (333.4 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5499958 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1098176 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1441586049 (1.4 GB)  TX bytes:158246843 (158.2 MB)
+
+
+2016-10-24 17:06:09,499.499.952077866:king console:-1219287296:INFO:22658:...thread manager initialized...
+2016-10-24 17:06:10,109.109.431028366:king console:-1219287296:INFO:22658:...on_start...
+2016-10-24 17:06:10,164.164.916992188:king console:-1219287296:INFO:22658:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 17:06:10,364.364.012002945:king console:-1308632256:INFO:22658:...db manager initialized...
+2016-10-24 17:06:10,537.537.692070007:king console:-1308632256:INFO:22658:...sd_insert_session executed...
+2016-10-24 17:06:10,683.683.547973633:king console:-1308632256:INFO:22658:...sd_insert_session_call executed...
+2016-10-24 17:06:10,688.688.273906708:king console:-1308632256:INFO:22658:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 17:06:10,944.944.166898727:king console:-1308632256:INFO:22658:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 17:07:34,026.26.918888092:king console:-1219287296:INFO:22658:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 17:07:34,246.246.431112289:king console:-1308632256:INFO:22658:...sd_update_session_status_closed executed...
+2016-10-24 17:07:34,500.500.98991394:king console:-1219287296:INFO:22658:main...app running.....
+2016-10-24 17:10:44,075.75.9479999542:king console:-1219942656:INFO:23016:kingconsoleApp...
+2016-10-24 17:10:44,084.84.930896759:king console:-1219942656:INFO:23016:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:75338 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:75338 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:31456750 (31.4 MB)  TX bytes:31456750 (31.4 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr fe:e4:d0:f0:4a:a3  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1328 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:333961 (333.9 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:192.168.0.137  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5501107 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1098560 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1441857625 (1.4 GB)  TX bytes:158299203 (158.2 MB)
+
+
+2016-10-24 17:10:44,085.85.2990150452:king console:-1219942656:INFO:23016:...thread manager initialized...
+2016-10-24 17:10:44,636.636.415958405:king console:-1219942656:INFO:23016:...on_start...
+2016-10-24 17:10:44,689.689.959049225:king console:-1219942656:INFO:23016:..updated session info remote...open MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-10-24 17:10:44,791.791.646003723:king console:-1309287616:INFO:23016:...db manager initialized...
+2016-10-24 17:10:44,958.958.818912506:king console:-1309287616:INFO:23016:...sd_insert_session executed...
+2016-10-24 17:10:45,104.104.732990265:king console:-1309287616:INFO:23016:...sd_insert_session_call executed...
+2016-10-24 17:10:45,110.110.122919083:king console:-1309287616:INFO:23016:...sql_retrieve_document_policy executed...['default', 'document']
+2016-10-24 17:10:45,365.365.665912628:king console:-1309287616:INFO:23016:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-10-24 17:11:42,321.321.297883987:king console:-1325081792:INFO:23016:CciScreen...on_ping_ip_input
+2016-10-24 17:11:42,376.376.431941986:king console:-1325081792:ERROR:23016:icmp ping console #2
+2016-10-24 17:11:42,388.388.94200325:king console:-1325081792:INFO:23016:CciScreen...boiler=maelstrom[icmp]->ping:  192.168.0.133
+
+2016-10-24 17:11:42,405.405.40099144:king console:-1325081792:INFO:23016:..update_console_payload...
+2016-10-24 17:11:42,417.417.818069458:king console:-1219942656:INFO:23016:...update console payload...
+2016-10-24 17:11:42,641.641.460895538:king console:-1309287616:INFO:23016:...sd_insert_session_call executed...
+2016-10-24 17:14:23,952.952.349901199:king console:-1219942656:ERROR:23016:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb10540cc>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-10-24 17:14:24,617.617.646932602:king console:-1309287616:INFO:23016:...sd_update_session_status_closed executed...
+2016-10-24 17:14:24,620.620.003938675:king console:-1309287616:ERROR:23016:..in db function call...update_session_status
+2016-12-06 11:25:17,508.508.896112442:king console:-1219082496:INFO:9930:kingconsoleApp...
+2016-12-06 11:25:17,531.531.966924667:king console:-1219082496:INFO:9930:eth0      Link encap:Ethernet  HWaddr 00:1d:ba:ac:77:6b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:116250 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:116250 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:55699949 (55.6 MB)  TX bytes:55699949 (55.6 MB)
+
+lxcbr0    Link encap:Ethernet  HWaddr 2e:37:84:13:9e:0d  
+          inet addr:10.0.3.1  Bcast:10.0.3.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:106 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:20632 (20.6 KB)
+
+wlan0     Link encap:Ethernet  HWaddr 00:21:5d:f2:0a:34  
+          inet addr:10.235.198.13  Bcast:10.255.255.255  Mask:255.224.0.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:38093 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:25244 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:25283409 (25.2 MB)  TX bytes:7179773 (7.1 MB)
+
+
+2016-12-06 11:25:17,532.532.35411644:king console:-1219082496:INFO:9930:...thread manager initialized...
+2016-12-06 11:25:18,267.267.870903015:king console:-1219082496:INFO:9930:...on_start...
+2016-12-06 11:25:18,405.405.256986618:king console:-1219082496:ERROR:9930:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb207dd8c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-12-06 11:25:18,405.405.751943588:king console:-1308275904:INFO:9930:...db manager initialized...
+2016-12-06 11:25:18,656.656.404972076:king console:-1308275904:INFO:9930:...sd_insert_session executed...
+2016-12-06 11:25:18,869.869.031906128:king console:-1308275904:INFO:9930:...sd_insert_session_call executed...
+2016-12-06 11:25:18,869.869.597911835:king console:-1308275904:INFO:9930:...sql_retrieve_document_policy executed...['default', 'document']
+2016-12-06 11:25:19,120.120.46790123:king console:-1308275904:INFO:9930:...sql_retrieve_document_policy executed...['default', 'stream']
+2016-12-06 11:25:32,652.652.17590332:king console:-1219082496:ERROR:9930:HTTPConnectionPool(host='localhost', port=7081): Max retries exceeded with url: /trinity-vulture/session_update (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb16fa60c>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2016-12-06 11:25:32,652.652.435064316:king console:-1219082496:INFO:9930:..updated session info remote...closed MDA6MjE6NWQ6ZjI6MGE6MzQ=
+2016-12-06 11:25:32,700.700.750112534:king console:-1219082496:INFO:9930:main...app running.....

@@ -1,0 +1,143 @@
+#:import lv kivy.uix.listview
+#:import la kivy.adapters.listadapter
+#:import ScrollEffect kivy.effects.scroll.ScrollEffect
+
+
+
+ScreenManager:
+
+    Screen:
+        name: 'desktop'
+        Accordion:
+            orientation: 'vertical'
+            id: cci_bimini_accordion
+            AccordionItem
+                title: 'remote console'
+                id: remote_accordion
+                GridLayout:
+                    cols: 1
+                    orientation: 'horizontal'
+                    ScrollView:
+                        effect_cls: ScrollEffect
+                        FocusImage:
+                            id: desktop
+                            nocache: True
+                            source: 'remote.png'
+                            on_touch_down: app.send_click(args[1])
+                            size: self.texture_size
+                            size_hint: (None, None)
+                    GridLayout:
+                        cols: 3
+                        orientation: 'horizontal'
+                        size_hint_y: .1
+                        Image:
+                            id: back_btn
+                            source: './img/back-button.png'
+                            #on_touch_down: app._on_back_btn()
+                        Image:
+                            id: home_btn
+                            source: './img/home.png'
+                        Image:
+                            id: overview_btn
+                            source: './img/overview.png'
+
+            AccordionItem:
+                title: 'cci-bimini'
+                GridLayout
+                    orientation: 'horizontal'
+                    cols: 1
+                    size_hint_y: 1
+                    ActionBar:
+                        pos_hint: {'top':1}
+                        size_hint_y: .1
+                        ActionView:
+                            use_separator: True
+                            ActionPrevious:
+                                id: cci_action_prev
+                                title: 'king console'
+                                with_previous: False
+                                #on_press: app._on_full_screen()
+                                app_icon: 'king-console32.png'
+                            ActionButton:
+                                text: 'connect'
+                                id: connect_btn
+                                on_press: app.on_connect()
+                            ActionButton:
+                                text: 'screen'
+                                on_press: app._move_carousel()
+                                id: screen_config_btn
+
+                    Carousel:
+                        id: maelstrom_carousel_id
+                        direction: 'right'
+                        GridLayout:
+                            orientation: 'horizontal'
+                            id: console_grid
+                            cols: 1
+                            pos_hint: {'top':1}
+                            BoxLayout:
+                                size_hint_y: .15
+                                Label:
+                                    text: 'current connection:'
+                                    color: [1,0,0,1]
+                                    font_size: 14
+                                    id: current_connection_text
+
+                            ScrollView:
+                                id: console_scrlv
+                                GridLayout:
+                                    orientation: 'horizontal'
+                                    cols: 1
+
+                                    TextInput:
+                                        text: 'no current connections'
+                                        id: console_interface
+                                        size_hint: 1, .7
+                                        cursor_blink: True
+                                        background_color: [0,0,0,0]
+                                        foreground_color: [1,1,1,1]
+                                        multiline: True
+                                        font_size: 14
+                                        readonly: True
+                                        height: max( (len(self._lines)+1) * self.line_height, console_scrlv.height)
+                                    Label:
+                                        text: 'enter ip or address:'
+                                        size_hint_y: .15
+                                    TextInput:
+                                        id: server
+                                        text: '192.168.0.154'
+                                        halign: 'center'
+                                        size_hint_y: .15
+                                    Label:
+                                        color: [1,0,0,1]
+                                        font_size: 16
+                                        id: status_text
+                                        size_hint_y: .1
+
+
+                        GridLayout:
+                            orientation: 'horizontal'
+                            cols: 2
+
+                            Slider:
+                                orientation: 'vertical'
+                                id: window_width_slider
+                                step: 1
+                                min: 100
+                                max: 1600
+                                value: 480
+                                size_hint_y: .4
+                            Slider:
+                                orientation: 'vertical'
+                                id: window_height_slider
+                                step: 1
+                                min: 100
+                                max: 1600
+                                value: 785
+                                size_hint_y: .4
+                            Label:
+                                text: 'width: ' + '{0:}'.format( window_width_slider.value )
+                                size_hint_y: .1
+                            Label:
+                                text: 'height: ' + '{0:}'.format( window_height_slider.value )
+                                size_hint_y: .1
